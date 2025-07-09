@@ -199,9 +199,9 @@
     }
     .popup-content {
       background: white;
-      padding: 40px;
-      border-radius: 20px;
-      max-width: 500px;
+      padding: 24px 10px 18px 10px;
+      border-radius: 16px;
+      max-width: 98vw;
       width: 90%;
       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
       position: relative;
@@ -215,27 +215,27 @@
     }
     .close-btn {
       position: absolute;
-      top: 15px;
-      right: 20px;
-      background: transparent;
-      border: none;
-      font-size: 32px;
-      cursor: pointer;
-      color: #999;
-      transition: color 0.3s ease, background 0.2s;
-      z-index: 1001;
+      top: 10px;
+      right: 10px;
       background: #fff;
+      border: 2px solid #D4AF37;
+      font-size: 36px;
+      font-weight: bold;
+      color: #D4AF37;
+      z-index: 1001;
       border-radius: 50%;
       width: 44px;
       height: 44px;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      transition: background 0.2s, color 0.2s, border 0.2s;
     }
     .close-btn:hover {
-      color: #333;
-      background: #f7f7f7;
+      color: #fff;
+      background: #D4AF37;
+      border-color: #D4AF37;
     }
     .popup-content h2 {
       font-family: 'Playfair Display', serif;
@@ -615,14 +615,13 @@
         font-size: 1rem;
       }
       .popup-content {
-        padding: 16px 6px;
+        padding: 10px 2px 8px 2px;
         border-radius: 10px;
         max-width: 98vw;
       }
       .modern-form {
-        padding: 12px 4px 8px 4px;
+        padding: 2px 0 0 0;
         border-radius: 8px;
-        max-width: 100vw;
       }
       .modern-form .form-row {
         flex-direction: column;
@@ -633,11 +632,12 @@
       }
       .modern-form input, .modern-form textarea {
         font-size: 0.98rem;
-        padding: 10px 8px;
+        padding: 7px 6px;
       }
       .modern-form .submit-btn {
-        font-size: 1rem;
-        padding: 10px;
+        font-size: 0.98rem;
+        padding: 8px;
+        margin-top: 6px;
       }
       .test-section {
         padding: 14px 4px;
