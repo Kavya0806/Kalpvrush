@@ -219,13 +219,23 @@
       right: 20px;
       background: transparent;
       border: none;
-      font-size: 28px;
+      font-size: 32px;
       cursor: pointer;
       color: #999;
-      transition: color 0.3s ease;
+      transition: color 0.3s ease, background 0.2s;
+      z-index: 1001;
+      background: #fff;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
     .close-btn:hover {
       color: #333;
+      background: #f7f7f7;
     }
     .popup-content h2 {
       font-family: 'Playfair Display', serif;
@@ -674,7 +684,7 @@
 </head>
 <body>
 <div class="nav">
-<div class="nav-logo">JewelEase</div>
+<div class="nav-logo"><a href="index.html" style="color:inherit;text-decoration:none;">JewelEase</a></div>
 <div class="nav-links">
 <a href="#features">Features</a>
 <a href="#testimonials">Testimonials</a>
